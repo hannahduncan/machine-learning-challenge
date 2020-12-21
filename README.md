@@ -1,3 +1,5 @@
 # machine-learning-challenge
 
-EDIT ME!
+The following models were used to predict the habitability of Kepler-identified exoplanets: Logistic Regression, K Nearest Neighbor, and GridSearch. All models performed with a test score greater than 50%, which suggests that a correlation exists among the independent variables studied (i.e. planetary radius, surface temperature, acceleration due to gravity, and orbital period). The best score was achieved using the GridSearch model to find C=5 and gamma=.0001, which resulted in 75.24% accuracy. This means that the model was able to accurately predict the koi disposition for the test data 75.24% of the time. Logistic Regression and K Nearest Neighbor showed 72.08% and 72.54% accuracy, respectively. 
+
+While any score greater than 70% accuracy could be considered acceptable for the dataset studied here, a useful test may be to reduce and/or change the independent parameters used to train the model to see how inherent biases within the model may be altered or introduced. Additionally, by feeding the model with more training data, one is more likely to increase the accuracy of its predicted results.  
